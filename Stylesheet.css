@@ -1,0 +1,36 @@
+.btn-outline-success {
+    color: rgba(0,0,0,.7);;
+    border-color: rgba(0,0,0,.7);;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px 30px;
+}
+
+.navbar a:hover {
+	cursor: pointer;
+}
+
+h2 {
+	font-family:"avenir";
+	color: #a6a6a6;
+	text-align: center;
+	margin: 10px;
+}
+
+div .gitem {
+	margin: 10px;
+}
+
+div .gitem:hover {
+	transition: all 1s;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+div .label {
+	text-align: center;
+}
